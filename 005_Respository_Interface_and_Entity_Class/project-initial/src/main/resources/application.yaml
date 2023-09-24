@@ -1,0 +1,19 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: project-initial
+  # conectar ao banco de dados mysql
+  # criar banco de dados caso não exista
+  # Timezone = UTC
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_test?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: root
+  # Persistir dados com JPA e Hibernate
+  jpa:
+    open-in-view: false
+    show-sql: true

@@ -1,5 +1,3 @@
-## Configuração inicial
-
 1. Abrir o projeto na IDE, exemplo: IntelliJ
 2. Build Project
 3. Executar a aplicação (run)
