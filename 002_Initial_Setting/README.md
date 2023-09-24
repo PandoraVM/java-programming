@@ -1,37 +1,27 @@
-## Projeto inicial  
+1. Abrir o projeto na IDE, exemplo: IntelliJ
+2. Build Project
+3. Executar a aplicação (run)
+4. Configurar o arquivo `application.properties`
 
-**Passo 5: Importar o projeto no IDE**
-
-Importe o projeto no IDE de sua preferência.
-
-# Java Programming  
-
-## Initial Settings  
-
-1. Abrir o projeto na IDE, exemplo: IntelliJ  
-2. Build Project  
-3. Executar a aplicação (run)    
-4. Configurar o arquivo application.properties  
-- Vamos alterar a extensão, trocando 'properties' por 'yaml' ou 'yml'  
-- Em seguida vamos incluir algumas configurações no application.yaml  
+* Vamos alterar a extensão, trocando `properties` por `yaml` ou `yml`
+* Em seguida, vamos incluir algumas configurações no `application.yaml`
 
 ```yaml
 server:
-  # trocamos a porta padrão 8080 para 8088 http://localhost:8088
+  # Trocamos a porta padrão 8080 para 8088 (http://localhost:8088)
   port: 8088
-  # inclui um path na url: http://localhost:8088/api
+  # Incluímos um path na URL: (http://localhost:8088/api)
   servlet:
     context-path: /api
 
 spring:
   application:
-    # nome da aplicação 
+    # Nome da aplicação
     name: project-initial
-
 ```
 
-Observe que a porta e o context-path foi alterado:  
+Observe que a porta e o `context-path` foram alterados:
+
+* Imagem do Console
 
 ![Imagem do console](./img/001_console.png)
-
-
