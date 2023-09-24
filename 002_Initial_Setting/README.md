@@ -1,3 +1,9 @@
+## Projeto inicial  
+
+**Passo 5: Importar o projeto no IDE**
+
+Importe o projeto no IDE de sua preferência.
+
 # Java Programming  
 
 ## Initial Settings  
@@ -27,4 +33,5 @@ spring:
 Observe que a porta e o context-path foi alterado:  
 
 ![Imagem do console](./img/001_console.png)
+
 
