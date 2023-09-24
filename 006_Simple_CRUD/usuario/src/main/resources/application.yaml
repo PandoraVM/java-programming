@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: usuario
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_usuario?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    open-in-view: false
+    show-sql: true
